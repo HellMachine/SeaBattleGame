@@ -88,7 +88,6 @@ public class Field {
                     createDestroyer(x1, y1, x2, y2);
                     countShip++;
                 }
-
         } while (countShip < Ship.DESTROYER_COUNT);
     }
 
@@ -115,7 +114,6 @@ public class Field {
                     createCruser(x1, y1, x2, y2, x3, y3);
                     countShip++;
                 }
-
         } while (countShip < Ship.CRUSER_COUNT);
     }
 
@@ -144,7 +142,6 @@ public class Field {
                     createBattlesip(x1, y1, x2, y2, x3, y3, x4, y4);
                     countShip++;
                 }
-
         } while (countShip < Ship.BATTLESHIP_COUNT);
     }
 
@@ -176,7 +173,6 @@ public class Field {
                         return true;
                     }
                 }
-
             }
         }
 

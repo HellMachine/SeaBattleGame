@@ -43,7 +43,6 @@ public class MainUI extends JFrame{
 
         //Первое меню
         menu = new JMenu("Игра");
-
         menuBar.add(menu);
 
         menuItem = new JMenuItem("В бой!", createIcon("img/rePlay.png"));
@@ -53,7 +52,6 @@ public class MainUI extends JFrame{
 
             public void actionPerformed(ActionEvent e) {
                 //TODO доделать рестарт
-
                 System.out.println("Item clicked: " + e.getActionCommand());
             }
         });
@@ -72,7 +70,6 @@ public class MainUI extends JFrame{
         });
 
         //Второе меню
-
         menuBar.add(Box.createHorizontalGlue());
         menu2 = new JMenu("?");
         menuItem = new JMenuItem("О игре");
@@ -88,8 +85,6 @@ public class MainUI extends JFrame{
                         JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, null, null);
             }
         });
-
-
         return menuBar;
     }
 
